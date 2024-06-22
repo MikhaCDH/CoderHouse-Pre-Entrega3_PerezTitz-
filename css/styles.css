@@ -12,60 +12,51 @@ body {
   background-color: #343a40;
 }
 
-.navbar {
-  background-color: #343a40;
+.navbar .container {
+  justify-content: center;
+  width: 100rem;
 }
 
 .navbar-brand, .nav-link {
-  color: #FFF !important;
+  color: #FFF;
 }
 
-.search-bar {
-  background-color: #FFF;
-  padding: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.barra-de-busqueda {
+  position: relative;
+  left: 44px;
+  justify-content: center !important;
+  width: 100%;
 }
-.search-bar form {
+.barra-de-busqueda form {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.menu-secciones {
-  background-color: #FFF;
-  padding: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 106px;
-  width: 100%;
-  z-index: 998;
-  text-align: center;
-}
-.menu-secciones a {
-  margin: 0 15px;
-  color: #000;
-  text-decoration: none;
-}
-
-.search-bar .input-group {
+.barra-de-busqueda .input-group {
   width: 75%;
 }
-.search-bar .input-group input:focus {
+.barra-de-busqueda .input-group input:focus {
   box-shadow: none;
 }
-.search-bar .input-group .input-group-text {
+.barra-de-busqueda .input-group .input-group-text {
   border-radius: 25px 0 0 25px;
 }
-.search-bar .input-group .input-group-append .btn {
+.barra-de-busqueda .input-group .input-group-append .btn {
   border-radius: 0 25px 25px 0;
 }
 
 .menu-secciones {
-  border-top: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
+  background-color: #2c2d36;
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
 }
 .menu-secciones a {
-  color: #333;
+  margin: 0 15px;
+  color: #FFF;
   text-decoration: none;
   font-weight: 500;
 }
@@ -75,11 +66,22 @@ body {
 
 .footer {
   background-color: #343a40;
-  color: #ffffff;
   padding: 20px 0;
 }
 .footer a {
   color: #FFF;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+#navbarNav ul li a {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */

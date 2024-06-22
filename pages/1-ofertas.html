@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="../css/styles.css">
 <link rel="stylesheet" href="../css/ofertas.css">
+<link rel="shortcut icon" href="../assets/images/carrito.svg" type="image/x-icon">
 </head>
 <body>
 
@@ -15,6 +16,22 @@
         <!-- Inicio de Sesión -->
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">NehuOffers</a>
+            <!-- Barra de Búsqueda -->
+            <div class="container">
+                <div class="barra-de-busqueda">
+                    <form class="form-inline w-100">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+                            </div>
+                            <input type="search" class="form-control" placeholder="Buscar productos" aria-label="Buscar productos" aria-describedby="basic-addon1">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-success">Buscar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,26 +45,7 @@
                     </li>
                 </ul>
             </div>
-            
         </nav>
-
-        <!-- Barra de Búsqueda -->
-        <div class="search-bar">
-            <div class="container">
-                <form class="form-inline w-100">
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
-                        </div>
-                        <input type="search" class="form-control" placeholder="Buscar productos" aria-label="Buscar productos" aria-describedby="basic-addon1">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-success">Buscar</button>
-                        </div>
-                    </div>
-                </form>
-                
-            </div>
-        </div>
 
         <!-- Menu -->
         <div class="menu-secciones mobile-hidden">
@@ -185,6 +183,14 @@
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-muted">© 2024 NehuOffers. Todos los derechos reservados.</span>
+            <br>
+            <a href="#">Política de Privacidad</a> | <a href="#">Términos de Uso</a>
+        </div>
+    </footer>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
