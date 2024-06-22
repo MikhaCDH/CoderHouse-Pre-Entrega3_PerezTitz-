@@ -1,0 +1,85 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  scrollbar-color: #454a4d #202324;
+}
+
+.fixed-top-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #343a40;
+}
+
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand, .nav-link {
+  color: #FFF !important;
+}
+
+.search-bar {
+  background-color: #FFF;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.search-bar form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu-secciones {
+  background-color: #FFF;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 106px;
+  width: 100%;
+  z-index: 998;
+  text-align: center;
+}
+.menu-secciones a {
+  margin: 0 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+.search-bar .input-group {
+  width: 75%;
+}
+.search-bar .input-group input:focus {
+  box-shadow: none;
+}
+.search-bar .input-group .input-group-text {
+  border-radius: 25px 0 0 25px;
+}
+.search-bar .input-group .input-group-append .btn {
+  border-radius: 0 25px 25px 0;
+}
+
+.menu-secciones {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.menu-secciones a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.menu-secciones a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+}
+.footer a {
+  color: #FFF;
+}
+
+/*# sourceMappingURL=styles.css.map */
