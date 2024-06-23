@@ -27,17 +27,17 @@
 }
 
 .products {
-  margin-top: 12rem;
+  margin-top: -3.1rem;
+  background-color: #FFF;
 }
     
-.row:first-child {
-  border-top: none;
-}
+
 
 .row {
   position: relative;
 }
-.row:not(:first-child)::before {
+
+.row:not(:first-child):not(:nth-child(2))::before {
   content: "";
   position: absolute;
   top: 0;
@@ -45,6 +45,10 @@
   right: 10%;
   height: 1px;
   background-color: #e0e0e0;
+}
+
+.row:not(:first-child)::before {
+  border-bottom: none;
 }
 
 .row > .col-md-4 {
@@ -67,6 +71,11 @@
   white-space: nowrap;
   overflow: hidden; /* Para ocultar el contenido que se desborda */
   text-overflow: ellipsis;
+}
+
+.background {
+  background-color: yellow; /* Color de fondo amarillo */
+  padding: 20px; /* Ajusta el padding según sea necesario */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
