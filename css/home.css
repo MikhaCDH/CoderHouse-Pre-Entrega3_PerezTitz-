@@ -46,8 +46,16 @@
     margin-top: 2rem;
 }
 
+.button-stars {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
 
-
+.btn {
+    margin-right: auto; /* Empuja el botón hacia el inicio del contenedor */
+}
 
 
 @media (min-width: 769px) and (max-width: 991px) {
