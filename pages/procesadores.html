@@ -19,29 +19,36 @@
             <!-- Barra de Búsqueda -->
             <div class="container-busqueda">
                 <div class="buscar">
-                    <input type="text" placeholder="Buscar productos" required />
+                    <input type="text" placeholder="Buscar" required />
                     <div class="btn-busqueda">
                     <i class="fas fa-search icon"></i>
                     </div>
                 </div>
             </div>
+            <div class="navbar-container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="../assets/images/usuario.svg" alt="Icono de Inicio de Sesión">Iniciar Sesión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="../assets/images/carrito.svg" alt="Icono de Carrito de Compras">Ver Carrito</a>
-                    </li>
+                <ul class="navbar-nav ml-auto">
+                    <div class="iconos-nav">
+                        <li>
+                            <a class="nav-link" href="#"><img src="../assets/images/usuario.svg" alt="Icono de Inicio de Sesión">Iniciar Sesión</a>
+                        </li>
+                    </div>
+                    <div class="iconos-nav">
+                        <li>
+                            <a class="nav-link" href="#"><img src="../assets/images/carrito.svg" alt="Icono de Carrito de Compras">Ver Carrito</a>
+                        </li>
+                    </div>
+                    
                 </ul>
             </div>
+        </div>
         </nav>
 
         <!-- Menu -->
-        <div class="menu-secciones mobile-hidden">
+        <div class="menu-secciones">
             <div class="container">
                 <a href="../index.html">Inicio</a>
                 <a href="../pages/ofertas.html">Ofertas</a>
@@ -59,40 +66,40 @@
             <div class="row">
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card offer-card">
-                <img src="../assets/images/ryzen75800x.jpg" class="card-img-top offer-image" alt="Producto 1">
+                <img src="../assets/images/i3.jpg" class="card-img-top offer-image" alt="Producto 1">
                 <div class="card-body">
-                    <h5 class="card-title offer-title">Ryzen 7 5800X</h5>
-                    <p class="card-text offer-description">Procesador - Ryzen 7 5800X</p>
+                    <h5 class="card-title offer-title">I3 - 14100 4.7Ghz</h5>
+                    <p class="card-text offer-description">Procesador - I3 14100</p>
                     <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
                 </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card offer-card">
-                <img src="../assets/images/x670placabase.jpg" class="card-img-top offer-image" alt="Producto 2">
+                <img src="../assets/images/i5.jpg" class="card-img-top offer-image" alt="Producto 2">
                 <div class="card-body">
-                    <h5 class="card-title offer-title">ASUS ROG X670E Extreme</h5>
-                    <p class="card-text offer-description">Placa Base - ASUS ROG X670E Extreme</p>
+                    <h5 class="card-title offer-title">I5 - 14600K 5.3Ghz</h5>
+                    <p class="card-text offer-description">Procesador - I5 14600K</p>
                     <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
                 </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card offer-card">
-                <img src="../assets/images/placadevideo-1.jpg" class="card-img-top offer-image" alt="Producto 3">
+                <img src="../assets/images/i7.jpg" height="230" class="card-img-top offer-image" alt="Producto 3">
                 <div class="card-body">
-                    <h5 class="card-title offer-title">Nvidia RTX 4090</h5>
-                    <p class="card-text offer-description">Placa de Video - Nvidia RTX 4090</p>
+                    <h5 class="card-title offer-title">I7 - 14700K 5.4Ghz</h5>
+                    <p class="card-text offer-description">Procesador - I7 14900KF</p>
                     <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
                 </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card offer-card">
-                <img src="../assets/images/fuente-de-alimentacion.jpg" class="card-img-top offer-image" alt="Producto 4">
+                <img src="../assets/images/i9.jpg" class="card-img-top offer-image" alt="Producto 4">
                 <div class="card-body">
-                    <h5 class="card-title offer-title">Corsair CX650F RGB</h5>
-                    <p class="card-text offer-description">Fuente - Corsair CX650F RGB</p>
+                    <h5 class="card-title offer-title">I9 - 14900K 6.2Ghz</h5>
+                    <p class="card-text offer-description">Procesador - I9 14900KS</p>
                     <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
                     </div>
                 </div>
@@ -103,90 +110,46 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="card offer-card">
-                    <img src="../assets/images/disco-solido-m2.jpg" class="card-img-top offer-image" alt="Producto 1">
+                    <img src="../assets/images/ryzen3.jpg" class="card-img-top offer-image" alt="Producto 1">
                     <div class="card-body">
-                        <h5 class="card-title offer-title">ASUS ROG X670E Extreme</h5>
-                        <p class="card-text offer-description">M.2 - ASUS ROG X670E Extreme</p>
+                        <h5 class="card-title offer-title">Ryzen 3 - 5300G 5.60Ghz</h5>
+                        <p class="card-text offer-description">Procesador - Ryzen 3 5300G</p>
                         <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
                     </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="card offer-card">
-                    <img src="../assets/images/corsair-ram.jpg" class="card-img-top offer-image" alt="Producto 2">
+                    <img src="../assets/images/ryzen5.jpg" class="card-img-top offer-image" alt="Producto 2">
                     <div class="card-body">
-                        <h5 class="card-title offer-title">Corsair Dominator Platinum</h5>
-                        <p class="card-text offer-description">Memoria Ram - Corsair Dominator Platinum</p>
+                        <h5 class="card-title offer-title">Ryzen 5 - 7600X 5.60Ghz</h5>
+                        <p class="card-text offer-description">Procesador - Ryzen 5 7600X</p>
                         <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
                     </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="card offer-card">
-                    <img src="../assets/images/gabinete.jpg" class="card-img-top offer-image" alt="Producto 3">
+                    <img src="../assets/images/ryzen7.jpg" class="card-img-top offer-image" alt="Producto 3">
                     <div class="card-body">
-                        <h5 class="card-title offer-title">RAIDMAX X616TBF</h5>
-                        <p class="card-text offer-description">Gabinete - RAIDMAX X616TBF</p>
+                        <h5 class="card-title offer-title">Ryzen 7 - 7700X 5.60Ghz</h5>
+                        <p class="card-text offer-description">Procesador - Ryzen 7 7700X</p>
                         <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
                     </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="card offer-card">
-                    <img src="../assets/images/water-cooler.jpg" class="card-img-top offer-image" alt="Producto 4">
+                    <img src="../assets/images/ryzen9.jpg" class="card-img-top offer-image" alt="Producto 4">
                     <div class="card-body">
-                        <h5 class="card-title offer-title">Asus TUF Gaming LC 120mm ARGB</h5>
-                        <p class="card-text offer-description">Water Cooler - Asus TUF Gaming LC 120mm ARGB</p>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            <!-- 2da Seccion -->
-            <div class="row">
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <div class="card offer-card">
-                    <img src="../assets/images/cooler-fan-1.jpg" class="card-img-top offer-image" alt="Producto 1">
-                    <div class="card-body">
-                        <h5 class="card-title offer-title">Aerocool Astro 12F</h5>
-                        <p class="card-text offer-description">Cooler Fan - Aerocool Astro 12F</p>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <div class="card offer-card">
-                    <img src="../assets/images/placadevideo-2.jpg" class="card-img-top offer-image" alt="Producto 2">
-                    <div class="card-body">
-                        <h5 class="card-title offer-title">AsRock Radeon RX 6800 XT</h5>
-                        <p class="card-text offer-description">Placa de Video - AsRock Radeon RX 6800 XT</p>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <div class="card offer-card">
-                    <img src="../assets/images/cooler-fan-2.jpg" class="card-img-top offer-image" alt="Producto 3">
-                    <div class="card-body">
-                        <h5 class="card-title offer-title">Cooler Master MF120 HALO</h5>
-                        <p class="card-text offer-description">Cooler Fan - Cooler Master MF120 HALO</p>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <div class="card offer-card">
-                    <img src="../assets/images/disco-solido-ssd.jpg" class="card-img-top offer-image" alt="Producto 4">
-                    <div class="card-body">
-                        <h5 class="card-title offer-title">SSD Western Digital 1TB</h5>
-                        <p class="card-text offer-description">Disco SSD - Western Digital 1 Terabyte</p>
+                        <h5 class="card-title offer-title">Ryzen 9 - 7950X 5.60Ghz</h5>
+                        <p class="card-text offer-description">Procesador - Ryzen 9 7950X</p>
                         <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Comprar</a>
                         </div>
                     </div>
                 </div>
                 </div>
             </div>
-    </div>
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">
@@ -199,5 +162,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/boton-mobile.js"></script>
 </body>
 </html>

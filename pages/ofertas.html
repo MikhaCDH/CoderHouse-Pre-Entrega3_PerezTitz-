@@ -19,25 +19,32 @@
             <!-- Barra de Búsqueda -->
             <div class="container-busqueda">
                 <div class="buscar">
-                    <input type="text" placeholder="Buscar productos" required />
+                    <input type="text" placeholder="Buscar" required />
                     <div class="btn-busqueda">
                     <i class="fas fa-search icon"></i>
                     </div>
                 </div>
             </div>
+            <div class="navbar-container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="../assets/images/usuario.svg" alt="Icono de Inicio de Sesión">Iniciar Sesión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="../assets/images/carrito.svg" alt="Icono de Carrito de Compras">Ver Carrito</a>
-                    </li>
+                <ul class="navbar-nav ml-auto">
+                    <div class="iconos-nav">
+                        <li>
+                            <a class="nav-link" href="#"><img src="../assets/images/usuario.svg" alt="Icono de Inicio de Sesión">Iniciar Sesión</a>
+                        </li>
+                    </div>
+                    <div class="iconos-nav">
+                        <li>
+                            <a class="nav-link" href="#"><img src="../assets/images/carrito.svg" alt="Icono de Carrito de Compras">Ver Carrito</a>
+                        </li>
+                    </div>
+                    
                 </ul>
             </div>
+        </div>
         </nav>
 
         <!-- Menu -->
@@ -198,5 +205,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/boton-mobile.js"></script>
 </body>
 </html>

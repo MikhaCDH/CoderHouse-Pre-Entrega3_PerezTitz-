@@ -222,7 +222,7 @@ h2 {
 }
 
 
-.card:hover {
+.card:hover, .card:focus {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
@@ -251,3 +251,4 @@ h2 {
     background-color: #1f8f39 !important;
     border-color: #1f8f39 !important;
 }
+
