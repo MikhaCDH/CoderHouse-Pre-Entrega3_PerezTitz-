@@ -92,4 +92,75 @@ h2 {
   overflow: hidden;
 }
 
+.iconos-nav {
+  display: flex;
+  text-align: center;
+}
+
+.card-title, .card-text {
+  white-space: nowrap;
+  overflow: hidden; /* Para ocultar el contenido que se desborda */
+  text-overflow: ellipsis;
+}
+
+.card img {
+  width: 114.4px;
+  height: 114.4px;
+}
+
+.container-busqueda {
+  display: flex;
+  justify-content: center;
+  width: -moz-available;
+}
+
+.buscar {
+  position: relative;
+  padding: 5px;
+}
+
+.buscar input {
+  width: 0;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #222;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  transition: all 0.6s ease;
+}
+
+.btn-busqueda {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background: #32DC54;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.buscar:hover input {
+  width: 240px;
+}
+
+.buscar input:focus {
+  width: 240px;
+}
+
+@media (max-width: 810px) {
+  .buscar input {
+    width: 0;
+  }
+  .buscar.active input {
+    width: 240px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

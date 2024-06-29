@@ -10,9 +10,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="shortcut icon" href="./assets/images/carrito.svg" type="image/x-icon">
-    <style>
-        
-    </style>
+    <title>Static Template</title>
 </head>
 <body>
     <div class="fixed-top-container">
@@ -20,19 +18,12 @@
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">NehuOffers</a>
             <!-- Barra de Búsqueda -->
-            <div class="container">
-                <div class="barra-de-busqueda">
-                    <form class="form-inline">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
-                            </div>
-                            <input type="search" class="form-control" placeholder="Buscar productos" aria-label="Buscar productos" aria-describedby="basic-addon1">
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-success">Buscar</button>
-                            </div>
-                        </div>
-                    </form>
+            <div class="container-busqueda">
+                <div class="buscar">
+                    <input type="text" placeholder="Buscar productos" required />
+                    <div class="btn-busqueda">
+                    <i class="fas fa-search icon"></i>
+                    </div>
                 </div>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,27 +31,29 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="./assets/images/usuario.svg" alt="Icono de Inicio de Sesión">Iniciar Sesión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="./assets/images/carrito.svg" alt="Icono de Carrito de Compras">Ver Carrito</a>
-                    </li>
+                    <div class="iconos-nav">
+                        <li>
+                            <a class="nav-link" href="#"><img src="./assets/images/usuario.svg" alt="Icono de Inicio de Sesión">Iniciar Sesión</a>
+                        </li>
+                    </div>
+                    <div class="iconos-nav">
+                        <li>
+                            <a class="nav-link" href="#"><img src="./assets/images/carrito.svg" alt="Icono de Carrito de Compras">Ver Carrito</a>
+                        </li>
+                    </div>
+                    
                 </ul>
             </div>
         </nav>
 
         <!-- Menu -->
-        <div class="menu-secciones mobile-hidden">
+        <div class="menu-secciones">
             <div class="container">
                 <a href="./index.html">Inicio</a>
                 <a href="./pages/1-ofertas.html">Ofertas</a>
                 <a href="./pages/2-procesadores.html">Procesadores</a>
                 <a href="./pages/3-memoriasram.html">Memoria Ram</a>
                 <a href="./pages/4-placasdevideo.html">Placas de Video</a>
-                <a href="./pages/5-discosduros.html">Discos Duros</a>
-                <a href="./pages/6-placasbase.html">Placas Base</a>
-                <a href="./pages/7-perifericos.html">Periféricos</a>
             </div>
         </div>
     </div>
@@ -208,6 +201,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+    <script src="./js/boton-mobile.js"></script>
 </body>
 </html>
