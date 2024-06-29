@@ -88,10 +88,6 @@
 
 @media (max-width: 810px) {
 
-    .fixed-top-container {
-        height: 14%;
-    }
-
     .card-img-top {
         height: 55%;
         width: 55%;
