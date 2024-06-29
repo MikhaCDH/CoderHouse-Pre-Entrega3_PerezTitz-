@@ -12,7 +12,7 @@ h2 {
 
 .content h2 {
     font-weight: bold;
-    margin-top: 10rem;
+    margin-top: 11.5rem;
     text-align: center;
     text-decoration: underline;
     border-bottom: none;
@@ -97,6 +97,7 @@ h2 {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    text-align: center;
 }
 
 .iconos-nav {
@@ -109,12 +110,6 @@ h2 {
     overflow: hidden; /* Para ocultar el contenido que se desborda */
     text-overflow: ellipsis;
 }
-
-.card img{
-    width: 114.4px;
-    height: 114.4px;
-}
-
 
 
 .container-busqueda {
