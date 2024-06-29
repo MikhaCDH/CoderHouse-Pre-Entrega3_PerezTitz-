@@ -78,6 +78,12 @@
         gap: 1px;
         align-content: flex-end;
     }
+
+    .card img{
+        width: 114.4px;
+        height: 114.4px;
+    }
+    
 }
 
 @media (max-width: 810px) {

@@ -8,6 +8,9 @@ body {
 
 h2 {
     text-align: center;
+    &:hover {
+        color: #007bff;
+    }
 }
 
 .content h2 {
@@ -98,6 +101,10 @@ h2 {
     align-items: center;
     overflow: hidden;
     text-align: center;
+    color: $color-general;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .iconos-nav {
@@ -121,6 +128,7 @@ h2 {
 .buscar {
     position: relative;
     padding: 5px;
+    margin-left: 45px;
 }
 
 .buscar input {
@@ -177,8 +185,11 @@ h2 {
     transform: translate(-100%, -50%); /* Ajusta la posición exacta al centro */
 }
 
-@media (max-width: 810px) {
+@media (max-width: 990px) {
 
+    .buscar {
+        margin-left: 0;
+    }
     .buscar input {
         width: 0;
     }
@@ -198,6 +209,7 @@ h2 {
     
     .container-busqueda{
         margin-right: 3.5rem;
+        width: none;
     }
 
     .fixed-top-container {

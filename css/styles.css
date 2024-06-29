@@ -8,6 +8,9 @@ body {
 h2 {
   text-align: center;
 }
+h2:hover {
+  color: #007bff;
+}
 
 .content h2 {
   font-weight: bold;
@@ -92,6 +95,10 @@ h2 {
   align-items: center;
   overflow: hidden;
   text-align: center;
+  color: #FFF;
+}
+#navbarNav ul li a:hover {
+  text-decoration: underline;
 }
 
 .iconos-nav {
@@ -114,6 +121,7 @@ h2 {
 .buscar {
   position: relative;
   padding: 5px;
+  margin-left: 45px;
 }
 
 .buscar input {
@@ -171,6 +179,9 @@ h2 {
 }
 
 @media (max-width: 810px) {
+  .buscar {
+    margin-left: 0;
+  }
   .buscar input {
     width: 0;
   }
