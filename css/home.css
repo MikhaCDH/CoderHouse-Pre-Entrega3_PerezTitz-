@@ -58,12 +58,6 @@
     gap: 5px;
 }
 
-.card img{
-    width: 114.4px;
-    height: 114.4px;
-}
-
-
 @media (min-width: 769px) and (max-width: 991px) {
     .card-img-top {
         height: 10rem;

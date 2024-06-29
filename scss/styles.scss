@@ -204,3 +204,38 @@ h2 {
         height: auto;
     }
 }
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.button-stars .btn, .btn-primary {
+    background-color: #32DC54;
+    border-color: #32DC54;
+}
+
+.button-stars .btn:hover, .btn-primary:hover {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+.button-stars .btn:active, .btn-primary:active, .button-stars .btn:focus, .btn-primary:focus {
+    background-color: #1f8f39 !important;
+    border-color: #1f8f39 !important;
+}
